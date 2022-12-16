@@ -1,0 +1,301 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.12.2
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.portfolio-box .box-text{
+	padding-bottom: 0px !important
+}
+.xe-chi-tiet .tien-sale-km,.xe-chi-tiet .tien-km{
+	font-size: 23px;
+}
+.tien-sale-km{
+	margin-bottom: 4px;
+}
+.tien-sale-km .span-gia-sale-km{
+	text-decoration: line-through;   
+}
+.tien-km .span-gia-km{
+	color: red;
+	font-weight: bold;
+}
+
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+.gia-xe-por{
+	min-height:48px;
+}
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+.title-xe h3 {
+	text-transform: uppercase;
+	margin: 10px 0 30px;
+	background: rgba(0, 0, 0, 0) url(images/c1.gif) repeat-x scroll left center;
+}
+.title-xe h3 span {
+	background: #c31820;
+	padding: 8px 25px;
+	color: #FFF;
+	border-radius: 40px 0;
+}
+.title-xe{
+	padding-bottom: 0px;
+	text-align: center;
+}
+.section-xe .box-image{
+	border: 5px solid #EEE;
+	border-radius: 3px;
+}
+.section-slide .col{
+	padding-bottom: 0px;    
+}
+
+.topsocial i {
+	border: 1px solid #C90000;
+	border-radius: 50%;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	color: #C90000;
+	padding: 11px 10px;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+}
+.title-follow {
+	font-size: 11px;
+	color: #666;
+}
+.hotline-footer {
+	/* background: rgba(0, 0, 0, 0) url(images/hotline.png) no-repeat scroll left top; */
+	color: #C90000; 
+	font-size: 18px;
+	padding-left: 30px;
+	line-height: 26px;
+	font-weight: bold;
+}
+.top-email {
+	color: #C90000;
+	font-weight: bold;
+}
+.topsocial .pull-left {
+	width: 247px;
+	margin-right: 30px;
+}
+.topsocial .pull-right {
+	width: 275px;
+}
+.mo-ta-so{
+	background: #fffddf none repeat scroll 0 0;
+	border: 1px dotted #b8b759;
+	border-radius: 5px;
+	box-sizing: border-box;
+	color: #333;
+	margin: 15px 0;
+	padding: 10px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+}
+.gia-niem-yet{
+	color: #C90000;
+	font-size: 22px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+#breadcrumbs{
+	font-size: 13px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #EEE;
+}   
+.div-tren{
+	padding-bottom: 0px;    
+	margin-bottom: 0px;
+}
+.box-heading{
+	border-bottom: 2px solid #eee;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 10px 0;
+	text-transform: uppercase;
+	background: none;
+	text-align: left;
+}
+.portfolio-top .page-wrapper {
+	padding-top: 5px;
+
+}
+.portfolio-inner img{
+	width: 80% !important
+}
+.portfolio-box{
+	border: 1px solid #E5E5E5;
+	padding: 10px;
+	border-radius: 3px;
+}
+.span-gia{
+	color: #C90000;
+	font-weight: bold;
+}
+.footer .menu li{
+	border: none;
+	font-weight: bold;
+	margin: 0;
+	padding: 0px 0 0px 20px;
+	background: transparent url(images/link.png) no-repeat scroll 0 12px;
+	font-size: 14px;
+}
+.footer .col{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.footer .textwidget p{
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.absolute-footer{
+	padding: 5px 0 5px;
+}
+.blog-tin-home .box-text {
+	padding-bottom: 5px;
+}
+.blog-tin-home .post-title {
+	color: #ff6346;
+}
+.is-divider{
+	display: none
+}
+.blog-tin-home .box-vertical{
+	border-bottom: 1px solid #E5E5E5;
+}
+.section-xe .box-text{
+	padding-bottom: 0px;
+}
+.div-xe{
+	padding-bottom: 4px;
+}
+.header-bottom ul li{
+	margin: 0px;
+	line-height: 46px;
+	min-height: 46px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.header-bottom ul li.active{
+	background: #E5E5E5;
+	color: #333;
+}
+.header-bottom .header-nav li.menu-item:hover {
+	background: #E5E5E5;
+	color: #333;
+}
+.header-bottom .header-nav li.menu-item:hover a{
+	color: #333 !important;
+}
+.header-bottom ul li.active a{
+	color: #333 !important;
+}
+.header-bottom .flex-row{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.blog-archive .badge {
+	display: none
+}
+.blog-archive .box-image{
+	width: 30% !important;
+}
+.blog-archive .post-title {
+	color:  #ff6346;
+}
+
+.send-button .wpcf7-submit{
+	background: #C31820 !important; 
+}
+.header-bottom ul.sub-menu li,.header-bottom ul.sub-menu{
+	padding: 0;
+}
+
+
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
